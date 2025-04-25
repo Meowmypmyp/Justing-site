@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* Скрыть стандартную прокрутку */
+body {
+    overflow: hidden;
+  }
+  
+  /* Настроить прокрутку для элементов с прокруткой */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Это для маленькой полосы прокрутки с синим цветом */
+  ::-webkit-scrollbar {
+    width: 6px; /* Размер полосы прокрутки */
+  }
+  
+  /* Цвет самой полосы прокрутки */
+  ::-webkit-scrollbar-thumb {
+    background-color: #4c9ee7; /* Синий цвет полосы */
+    border-radius: 10px;
+  }
+  
+  /* Цвет области фона полосы прокрутки */
+  ::-webkit-scrollbar-track {
+    background: #22282B; /* Темный фон для области прокрутки */
+    border-radius: 10px;
+  }
+  
+  /* Стиль для прокрутки на весь body */
+  html, body {
+    overflow-y: scroll; /* Прокрутка по вертикали */
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
